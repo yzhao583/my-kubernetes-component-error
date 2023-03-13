@@ -1,0 +1,7 @@
+site_name: "my-kubernetes-component Docs"
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core

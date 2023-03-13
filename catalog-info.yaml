@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "my-kubernetes-component"
+  annotations:
+    github.com/project-slug: yzhao583/my-kubernetes-component
+    backstage.io/kubernetes-id: "my-kubernetes-component"
+    argocd/app-name: "my-kubernetes-component"
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "guests"
